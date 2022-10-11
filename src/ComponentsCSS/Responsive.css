@@ -41,13 +41,11 @@
     margin-left: 0%;
   }
 
-  .sobre{
+  .detalhes, .sobre{
+    width: 320px;
     margin-top: 1%;
   }
-
-  .detalhes, .sobre{
-    width: 328px;
-  }
+  
 
   .butao{
     margin-top: 0%;
