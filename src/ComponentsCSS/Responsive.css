@@ -1,0 +1,71 @@
+/*MOBILE*/
+@media only screen and (max-height: 900px) {
+  /*Pagina Principal*/
+  section{
+    display: block;
+    justify-content: center;
+  }
+
+  .container_detalhes{
+    margin-left: 0%;
+  }
+
+  .detalhes, .sobre{
+    width: 330px;
+  }
+}
+
+
+@media only screen and (max-height: 750px) {
+  /*Pagina Principal*/
+
+
+  .titulo{
+    background-color: rgb(2, 2, 2);
+     display: inline-block;
+    color: white;
+    margin-top: 1%;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  section{
+    display: block;
+    justify-content: center;
+  }
+
+  .container_detalhes{
+    margin-left: 0%;
+  }
+
+  .sobre{
+    margin-top: 1%;
+  }
+
+  .detalhes, .sobre{
+    width: 325px;
+  }
+
+  .butao{
+    margin-top: 0%;
+    margin-left: 10%;
+    padding: 25px;
+    display: flex;
+  }
+
+  .butao input{
+    margin: 5px;
+  }
+}
+
+/*PC*/
+@media only screen and (min-width: 901px) {
+  /*Pagina Principal*/
+  section{
+    display: flex;
+  }
+
+}
