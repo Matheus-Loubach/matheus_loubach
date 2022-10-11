@@ -5,8 +5,8 @@ import '../ComponentsCSS/Inicio.css'
 import Typewriter from 'react-ts-typewriter';
 
 //efeitos
+import { Zoom } from "react-awesome-reveal";
 import { Slide } from "react-awesome-reveal";
-import { Bounce } from "react-awesome-reveal";
 //particulas
 import { loadFull } from "tsparticles";
 import Particulas from './Particulas';
@@ -18,20 +18,20 @@ const Inicio = ({projetos}) => {
   };
 
   return (
-
+    
     <div id="particles-container"  className='tela_inicial' >
+    <Particulas id="tsparticles" init={particlesInit} options={loadFull}/>
       <section >
 
         <div className='containera'>
-        <Particulas id="tsparticles" init={particlesInit} options={loadFull}/>
         <header className='titulo'>
         <Typewriter className='h2' text='Desenvolvedor FullStack'/>    
         </header>
         </div>
-        
+
       <div className='container_detalhes'>
         
-      <Slide duration={2000} cascade={true}>
+  <Zoom direction= "down" duration={2000} cascade={false}>
       <div className='sobre' >
               <p>sobre = <span>&#123;</span></p>
               <br></br>
@@ -50,16 +50,16 @@ const Inicio = ({projetos}) => {
               <br></br>
               <p>&#125;</p>
       </div>
-      </Slide>
+      </Zoom>
 
       </div>
 
      <div className='butao'>
-     <Bounce>
+     <Slide>
      <input onClick={projetos} type="button" value="Projetos" />
      
      <input type="button" value="Sobre" />
-     </Bounce>
+     </Slide>
      </div>
      </section>
   

@@ -1,6 +1,43 @@
-#particles-container {
-  position: absolute;
-  background-color: #000000;
-  width: 100%;
-  height: 100%;
+.butao input:hover{
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  transition: 1s;
+  animation: none;
+}
+
+.butao{
+  margin-top: 23%;
+  margin-left: 35%;
+}
+
+.butao input{
+  margin-top: 10%;
+  box-sizing: border-box;
+  padding: 1em;
+  background-color: black;
+  width: 120px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  box-shadow: inset 0 0 0 1px rgb(0, 0, 0), 0rgb(0, 0, 0) 1px blue;
+  transition: box-shadow 500ms linear;
+  animation: glow-box 2s linear infinite alternate;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  font-weight: bolder;
+}
+
+.container_pass{
+  text-align: end;
+}
+
+.container_pass input{
+  padding: 10px;
+  font-size: 15px;
+  margin-right: 10%;
+  font-family: fantasy;
+  text-transform: uppercase;
+  border-radius: 50px;
 }

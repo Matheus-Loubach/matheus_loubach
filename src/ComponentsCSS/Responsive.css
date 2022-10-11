@@ -1,6 +1,7 @@
 /*MOBILE*/
 @media only screen and (max-height: 900px) {
   /*Pagina Principal*/
+
   section{
     display: block;
     justify-content: center;
@@ -12,13 +13,19 @@
 
   .detalhes, .sobre{
     width: 330px;
+    margin-left: 0;
+  }
+  .container_projetos{
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 
 @media only screen and (max-height: 750px) {
   /*Pagina Principal*/
-
+  .container_projetos{
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   .titulo{
     background-color: rgb(2, 2, 2);
@@ -41,13 +48,12 @@
     margin-left: 0%;
   }
 
-  .sobre{
-    margin-top: 1%;
-  }
-
   .detalhes, .sobre{
-    width: 325px;
+    width: 320px;
+    margin-top: 1%;
+    margin-left: 0;
   }
+  
 
   .butao{
     margin-top: 0%;
@@ -67,5 +73,7 @@
   section{
     display: flex;
   }
-
+  .container_projetos{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
