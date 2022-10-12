@@ -3,7 +3,7 @@ import React from 'react'
 import '../ComponentsCSS/Projects.css'
 import '../ComponentsCSS/Responsive.css'
 
-const Projects = ({inicio, itens, handleClick}) => {
+const Projects = ({itens, handleClick}) => {
 
   const {title, img} = itens;
 

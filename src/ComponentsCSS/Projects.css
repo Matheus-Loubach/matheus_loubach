@@ -29,3 +29,8 @@ body{
   padding-bottom: 5px;
   border: 1px solid white;
 }
+
+.grid-item p{
+ text-transform: uppercase;
+ font-size: 18px;
+}

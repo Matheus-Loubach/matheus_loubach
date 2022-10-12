@@ -1,0 +1,32 @@
+.container_s h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container_s p {
+  margin: 3% 0 3% 0;
+  font-size: 20px;
+}
+
+.container_s :nth-child(3){
+  font-size: 20px;
+}
+
+
+.icones img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.grid-icones{
+	margin: 5px;
+	background: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 1.5em;
+  padding-bottom: 5px;
+}
+
+.grid-icones h3{
+  margin-top: 10%;
+}

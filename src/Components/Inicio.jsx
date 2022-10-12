@@ -11,7 +11,7 @@ import { Slide } from "react-awesome-reveal";
 import { loadFull } from "tsparticles";
 import Particulas from './Particulas';
 
-const Inicio = ({projetos}) => {
+const Inicio = ({projetos, sobre}) => {
  
   const particlesInit = async (main) => {
     await loadFull(main);
@@ -58,7 +58,7 @@ const Inicio = ({projetos}) => {
      <Slide>
      <input onClick={projetos} type="button" value="Projetos" />
      
-     <input type="button" value="Sobre" />
+     <input onClick={sobre} type="button" value="Sobre" />
      </Slide>
      </div>
      </section>

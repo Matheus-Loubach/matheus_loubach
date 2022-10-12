@@ -1,8 +1,9 @@
+
 .container_pass{
+  margin-top: 10px;
   text-align: center;
   margin-bottom: -18px;
 }
-
 .container_pass input{
   padding: 10px;
   font-size: 15px;
@@ -10,11 +11,23 @@
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   border-radius: 50px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
   border: 1px solid white;
 }
 
+.container_pass input:hover{
+  cursor: pointer;
+  background-color:rgb(3, 78, 189);
+}
+
+.container_oneProject{
+  overflow: hidden;
+}
+
+.container_oneProject h1{
+  margin-top: 10px;
+}
 .container_oneProject p{
   margin-left: 2%;
 }
