@@ -74,7 +74,7 @@ const list = [
   {
     id: 8,
     title: "Epic Games",
-    desc: "Uma LandingPage com um Redesign da EpicGames feito com ReactJS,CSS, HTML,Efeitos de CSS e Javascript, dropdown menu com CSS, Utilizado uma bibliotea para a criação do carrosel: Carrossel React",
+    desc: "Uma LandingPage com um Redesign da EpicGames feito com ReactJS,CSS, HTML,Efeitos de CSS e Javascript, dropdown menu com CSS, Utilizado uma biblioteca para a criação do carrosel: Carrossel React",
     git: "https://github.com/Matheus-Loubach/landing_page_EpicGames",
     site: "https://landing-page-epic-games.vercel.app",
     img: epic,
