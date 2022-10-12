@@ -29,7 +29,7 @@ const list = [
   {
     id: 3,
     title: "Jogo da Memoria Stranger Things",
-    desc: "Jogo com o tema da série Stranger Things, Feito com JavaScript Puro para ampliar o conhecimento sobre DOM.  e completando com HTML5 e CSS3 para efeitos e responsividade.",
+    desc: "Jogo com o tema da série Stranger Things, Feito com JavaScript Puro para ampliar o conhecimento sobre DOM e completando com HTML5 e CSS3 para efeitos e responsividade.",
     git: "https://github.com/Matheus-Loubach/JogoDaMemoria",
     site: "jogo-da-memoria-gamma.vercel.app",
     img: JogoDaMemoria,
