@@ -56,7 +56,7 @@ const list = [
   {
     id: 6,
     title: "Small twitter",
-    desc: "Um clone do Twitter funcional com Banco de dados,autentificação de usúario,Cadastro completo,Pode publicar seus tweets e apaga-los. Foi utlizado JavaScript,HTML, CSS3 ,Axios,Sql, ReactJS, Tailwind, KoaJS, NodeJS.",
+    desc: "Um clone do Twitter funcional com Banco de dados,autentificação de usúario,Cadastro completo,Pode publicar seus tweets e apaga-los. Foi utlizado JavaScript,HTML, CSS3 ,Axios,Sql, ReactJS, Tailwind, KoaJS,NodeJS.",
     git: "https://github.com/Matheus-Loubach/Small_Tweet",
     site: "https://small-tweet-web.vercel.app",
     img: Projetott,
