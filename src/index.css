@@ -29,15 +29,3 @@
   font-weight: bolder;
 }
 
-.container_pass{
-  text-align: end;
-}
-
-.container_pass input{
-  padding: 10px;
-  font-size: 15px;
-  margin-right: 10%;
-  font-family: fantasy;
-  text-transform: uppercase;
-  border-radius: 50px;
-}

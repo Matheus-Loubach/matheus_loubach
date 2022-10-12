@@ -5,7 +5,7 @@ import '../ComponentsCSS/Responsive.css'
 
 const Projects = ({inicio, itens, handleClick}) => {
 
-  const {id, title,author, price, img} = itens;
+  const {title, img} = itens;
 
 
   return (

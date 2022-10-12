@@ -30,13 +30,12 @@ function App() {
   }
 
  
-
   return (
     <div>
     {pag === 'inicio' && <Inicio projetos={proj}/>}
     <Slide>
     {pag === 'projetos' && <PassProjects inicio={ini} handleClick={handleClick}/>}
-    {pag === 1 && <PassClick escolha={escolha}  inicio={ini} handleClick={handleClick}/>}
+    {pag === 1 && <PassClick projetos={proj} escolha={escolha}  inicio={ini} handleClick={handleClick}/>}
     </Slide>
     </div>
   );
