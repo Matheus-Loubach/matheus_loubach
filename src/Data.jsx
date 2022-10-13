@@ -30,7 +30,6 @@ const list = [
     id: 3,
     title: "Jogo da Memoria Stranger Things",
     desc: "Jogo com o tema da série Stranger Things, Feito com JavaScript Puro para ampliar o conhecimento sobre DOM.  e completando com HTML5 e CSS3 para efeitos e responsividade.",
-    desc: "Jogo com o tema da série Stranger Things, Feito com JavaScript Puro para ampliar o conhecimento sobre DOM e completando com HTML5 e CSS3 para efeitos e responsividade.",
     git: "https://github.com/Matheus-Loubach/JogoDaMemoria",
     site: "jogo-da-memoria-gamma.vercel.app",
     img: JogoDaMemoria,
@@ -57,11 +56,7 @@ const list = [
   {
     id: 6,
     title: "Small twitter",
-<<<<<<< HEAD
     desc: "Um clone do Twitter funcional com Banco de dados,autentificação de usúario,Cadastro completo,Pode publicar seus tweets e apaga-los. Foi utilizado JavaScript,HTML, CSS3 ,Axios,Sql, ReactJS, Tailwind, KoaJS, NodeJS.",
-=======
-    desc: "Um clone do Twitter funcional com Banco de dados,autentificação de usúario,Cadastro completo,Pode publicar seus tweets e apaga-los. Foi utlizado JavaScript,HTML, CSS3 ,Axios,Sql, ReactJS, Tailwind, KoaJS,NodeJS.",
->>>>>>> 4fb8f8810cf47be062743606be931d8e4d5bd865
     git: "https://github.com/Matheus-Loubach/Small_Tweet",
     site: "https://small-tweet-web.vercel.app",
     img: Projetott,
