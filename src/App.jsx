@@ -4,6 +4,10 @@ import PassClick from './Components/PassClick';
 import { Slide } from "react-awesome-reveal";
 import PassProjects from './Components/PassProjects';
 import Sobre from './Components/Sobre';
+//particulas
+import { loadFull } from "tsparticles";
+
+
 
 const estagios = [
   {id: 0, name: 'inicio'},
@@ -12,7 +16,10 @@ const estagios = [
   {id: 3, name: 1},
 ];
 
-
+//particulas
+const particlesInit = async (main) => {
+  await loadFull(main);
+};
 
 function App() {
 
@@ -37,11 +44,11 @@ function App() {
  
   return (
     <div>
-    {pag === 'inicio' && <Inicio sobre={sobre} projetos={proj}/>}
+    {pag === 'inicio' && <Inicio particlesInit={particlesInit} sobre={sobre} projetos={proj}/>}
     <Slide>
     {pag === 'projetos' && <PassProjects inicio={ini} handleClick={handleClick}/>}
     {pag === 'sobre' && <Sobre  inicio={ini}/>}
-    {pag === 1 && <PassClick projetos={proj} escolha={escolha}  inicio={ini} handleClick={handleClick}/>}
+    {pag === 1 && <PassClick particlesInit={particlesInit} projetos={proj} escolha={escolha}  inicio={ini} handleClick={handleClick}/>}
     </Slide>
     </div>
   );

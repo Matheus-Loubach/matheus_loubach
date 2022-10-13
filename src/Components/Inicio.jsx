@@ -8,15 +8,11 @@ import Typewriter from 'react-ts-typewriter';
 import { Zoom } from "react-awesome-reveal";
 import { Slide } from "react-awesome-reveal";
 //particulas
-import { loadFull } from "tsparticles";
 import Particulas from './Particulas';
+import { loadFull } from "tsparticles";
 
-const Inicio = ({projetos, sobre}) => {
- 
-  const particlesInit = async (main) => {
-    await loadFull(main);
-  };
 
+const Inicio = ({projetos, sobre,particlesInit}) => { 
   return (
     
     <div id="particles-container"  className='tela_inicial' >

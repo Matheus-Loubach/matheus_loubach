@@ -1,7 +1,11 @@
 import React from 'react'
 import '../ComponentsCSS/OneProject.css'
+//particulas
+import ParticulasOne from './ParticulasOne';
+import { loadFull } from "tsparticles";
 
-const OneProject = ({itens}) => {
+
+const OneProject = ({itens, particlesInit}) => {
 
 
   const {title,desc, git, img, site} = itens;
@@ -9,6 +13,7 @@ const OneProject = ({itens}) => {
   return (
     
     <div className='container_oneProject'>
+       <ParticulasOne id="tsparticles" init={particlesInit} options={loadFull}/>
       <header>
       <h1>{title}</h1> 
       <img src={img} alt="Projeto"/>

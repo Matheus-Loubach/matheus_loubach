@@ -1,13 +1,27 @@
+
 .container_s h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container_s p {
   margin: 3% 0 3% 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
-.container_s :nth-child(3){
+.container_s input{
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-bottom: 20px;
+}
+.container_s input:hover{
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.container_s :nth-child(4){
   font-size: 20px;
 }
 
